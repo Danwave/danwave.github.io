@@ -104,74 +104,6 @@
         "scale": 1
       }
     },
-    "f14": {
-      "side": {
-        "image": "aircraft/f14.side.png",
-        "nose": [
-          66,
-          13
-        ],
-        "exhausts": [
-          [
-            0,
-            12
-          ]
-        ],
-        "scale": 1
-      },
-      "top": {
-        "image": "aircraft/f14.top.png",
-        "nose": [
-          25,
-          0
-        ],
-        "exhausts": [
-          [
-            20,
-            30
-          ],
-          [
-            30,
-            30
-          ]
-        ],
-        "scale": 1
-      }
-    },
-    "f15": {
-      "side": {
-        "image": "aircraft/f15.side.png",
-        "nose": [
-          66,
-          13
-        ],
-        "exhausts": [
-          [
-            0,
-            12
-          ]
-        ],
-        "scale": 1
-      },
-      "top": {
-        "image": "aircraft/f15.top.png",
-        "nose": [
-          25,
-          0
-        ],
-        "exhausts": [
-          [
-            20,
-            30
-          ],
-          [
-            30,
-            30
-          ]
-        ],
-        "scale": 1
-      }
-    },
     "enemy-biplane": {
       "side": {
         "image": "aircraft/enemy-biplane.side.png",
@@ -276,12 +208,12 @@
         "scale": 1
       }
     },
-    "enemy-twinjet": {
+    "f14": {
       "side": {
-        "image": "aircraft/enemy-twinjet.side.png",
+        "image": "aircraft/f14.side.png",
         "nose": [
-          66,
-          13
+          72,
+          11
         ],
         "exhausts": [
           [
@@ -292,19 +224,121 @@
         "scale": 1
       },
       "top": {
-        "image": "aircraft/enemy-twinjet.top.png",
+        "image": "aircraft/f14.top.png",
         "nose": [
-          25,
+          29,
           0
         ],
         "exhausts": [
           [
             20,
-            30
+            54
+          ],
+          [
+            38,
+            54
+          ]
+        ],
+        "scale": 1
+      }
+    },
+    "f15": {
+      "side": {
+        "image": "aircraft/f15.side.png",
+        "nose": [
+          68,
+          11
+        ],
+        "exhausts": [
+          [
+            0,
+            12
+          ]
+        ],
+        "scale": 1
+      },
+      "top": {
+        "image": "aircraft/f15.top.png",
+        "nose": [
+          27,
+          0
+        ],
+        "exhausts": [
+          [
+            24,
+            52
           ],
           [
             30,
-            30
+            52
+          ]
+        ],
+        "scale": 1
+      }
+    },
+    "enemy-tomcat": {
+      "side": {
+        "image": "aircraft/enemy-tomcat.side.png",
+        "nose": [
+          72,
+          11
+        ],
+        "exhausts": [
+          [
+            0,
+            12
+          ]
+        ],
+        "scale": 1
+      },
+      "top": {
+        "image": "aircraft/enemy-tomcat.top.png",
+        "nose": [
+          29,
+          0
+        ],
+        "exhausts": [
+          [
+            20,
+            54
+          ],
+          [
+            38,
+            54
+          ]
+        ],
+        "scale": 1
+      }
+    },
+    "enemy-eagle": {
+      "side": {
+        "image": "aircraft/enemy-eagle.side.png",
+        "nose": [
+          68,
+          11
+        ],
+        "exhausts": [
+          [
+            0,
+            12
+          ]
+        ],
+        "scale": 1
+      },
+      "top": {
+        "image": "aircraft/enemy-eagle.top.png",
+        "nose": [
+          27,
+          0
+        ],
+        "exhausts": [
+          [
+            24,
+            52
+          ],
+          [
+            30,
+            52
           ]
         ],
         "scale": 1

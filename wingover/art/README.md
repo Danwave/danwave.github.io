@@ -17,7 +17,7 @@ aircraft/enemy-<familia>.*.png   # enemigos (vuelan aviones de la misma época q
 ```
 
 Aviones del jugador: `biplane`, `p51`, `me262`, `mig21`, `f14`, `f15`.
-Familias de enemigos: `biplane`, `prop`, `earlyjet`, `delta`, `twinjet`.
+Familias de enemigos: `biplane`, `prop`, `earlyjet`, `delta`, `tomcat` (F-14), `eagle` (F-15).
 
 ## Reglas de dibujo
 
