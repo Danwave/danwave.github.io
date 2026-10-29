@@ -343,6 +343,250 @@
         ],
         "scale": 1
       }
+    },
+    "dr1": {
+      "side": {
+        "image": "aircraft/dr1.side.png",
+        "nose": [
+          46,
+          13
+        ],
+        "exhausts": [],
+        "scale": 1
+      },
+      "top": {
+        "image": "aircraft/dr1.top.png",
+        "nose": [
+          23,
+          0
+        ],
+        "exhausts": [],
+        "scale": 1
+      }
+    },
+    "f4": {
+      "side": {
+        "image": "aircraft/f4.side.png",
+        "nose": [
+          74,
+          11
+        ],
+        "exhausts": [
+          [
+            0,
+            12
+          ]
+        ],
+        "scale": 1
+      },
+      "top": {
+        "image": "aircraft/f4.top.png",
+        "nose": [
+          27,
+          0
+        ],
+        "exhausts": [
+          [
+            24,
+            52
+          ],
+          [
+            30,
+            52
+          ]
+        ],
+        "scale": 1
+      }
+    },
+    "mig29": {
+      "side": {
+        "image": "aircraft/mig29.side.png",
+        "nose": [
+          68,
+          13
+        ],
+        "exhausts": [
+          [
+            0,
+            10
+          ]
+        ],
+        "scale": 1
+      },
+      "top": {
+        "image": "aircraft/mig29.top.png",
+        "nose": [
+          25,
+          0
+        ],
+        "exhausts": [
+          [
+            18,
+            52
+          ],
+          [
+            32,
+            52
+          ]
+        ],
+        "scale": 1
+      }
+    },
+    "su27": {
+      "side": {
+        "image": "aircraft/su27.side.png",
+        "nose": [
+          78,
+          12
+        ],
+        "exhausts": [
+          [
+            4,
+            12
+          ]
+        ],
+        "scale": 1
+      },
+      "top": {
+        "image": "aircraft/su27.top.png",
+        "nose": [
+          29,
+          0
+        ],
+        "exhausts": [
+          [
+            22,
+            58
+          ],
+          [
+            36,
+            58
+          ]
+        ],
+        "scale": 1
+      }
+    },
+    "enemy-triplane": {
+      "side": {
+        "image": "aircraft/enemy-triplane.side.png",
+        "nose": [
+          46,
+          13
+        ],
+        "exhausts": [],
+        "scale": 1
+      },
+      "top": {
+        "image": "aircraft/enemy-triplane.top.png",
+        "nose": [
+          23,
+          0
+        ],
+        "exhausts": [],
+        "scale": 1
+      }
+    },
+    "enemy-phantom": {
+      "side": {
+        "image": "aircraft/enemy-phantom.side.png",
+        "nose": [
+          74,
+          11
+        ],
+        "exhausts": [
+          [
+            0,
+            12
+          ]
+        ],
+        "scale": 1
+      },
+      "top": {
+        "image": "aircraft/enemy-phantom.top.png",
+        "nose": [
+          27,
+          0
+        ],
+        "exhausts": [
+          [
+            24,
+            52
+          ],
+          [
+            30,
+            52
+          ]
+        ],
+        "scale": 1
+      }
+    },
+    "enemy-fulcrum": {
+      "side": {
+        "image": "aircraft/enemy-fulcrum.side.png",
+        "nose": [
+          68,
+          13
+        ],
+        "exhausts": [
+          [
+            0,
+            10
+          ]
+        ],
+        "scale": 1
+      },
+      "top": {
+        "image": "aircraft/enemy-fulcrum.top.png",
+        "nose": [
+          25,
+          0
+        ],
+        "exhausts": [
+          [
+            18,
+            52
+          ],
+          [
+            32,
+            52
+          ]
+        ],
+        "scale": 1
+      }
+    },
+    "enemy-flanker": {
+      "side": {
+        "image": "aircraft/enemy-flanker.side.png",
+        "nose": [
+          78,
+          12
+        ],
+        "exhausts": [
+          [
+            4,
+            12
+          ]
+        ],
+        "scale": 1
+      },
+      "top": {
+        "image": "aircraft/enemy-flanker.top.png",
+        "nose": [
+          29,
+          0
+        ],
+        "exhausts": [
+          [
+            22,
+            58
+          ],
+          [
+            36,
+            58
+          ]
+        ],
+        "scale": 1
+      }
     }
   },
   "structures": {
