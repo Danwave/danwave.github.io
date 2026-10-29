@@ -1,0 +1,622 @@
+{
+  "aircraft": {
+    "biplane": {
+      "side": {
+        "image": "aircraft/biplane.side.png",
+        "nose": [
+          52,
+          13
+        ],
+        "exhausts": [],
+        "scale": 1
+      },
+      "top": {
+        "image": "aircraft/biplane.top.png",
+        "nose": [
+          23,
+          0
+        ],
+        "exhausts": [],
+        "scale": 1
+      }
+    },
+    "p51": {
+      "side": {
+        "image": "aircraft/p51.side.png",
+        "nose": [
+          56,
+          11
+        ],
+        "exhausts": [],
+        "scale": 1
+      },
+      "top": {
+        "image": "aircraft/p51.top.png",
+        "nose": [
+          23,
+          0
+        ],
+        "exhausts": [],
+        "scale": 1
+      }
+    },
+    "me262": {
+      "side": {
+        "image": "aircraft/me262.side.png",
+        "nose": [
+          60,
+          9
+        ],
+        "exhausts": [
+          [
+            18,
+            15
+          ]
+        ],
+        "scale": 1
+      },
+      "top": {
+        "image": "aircraft/me262.top.png",
+        "nose": [
+          25,
+          0
+        ],
+        "exhausts": [
+          [
+            13,
+            20
+          ],
+          [
+            37,
+            20
+          ]
+        ],
+        "scale": 1
+      }
+    },
+    "mig21": {
+      "side": {
+        "image": "aircraft/mig21.side.png",
+        "nose": [
+          66,
+          11
+        ],
+        "exhausts": [
+          [
+            0,
+            11
+          ]
+        ],
+        "scale": 1
+      },
+      "top": {
+        "image": "aircraft/mig21.top.png",
+        "nose": [
+          23,
+          0
+        ],
+        "exhausts": [
+          [
+            23,
+            30
+          ]
+        ],
+        "scale": 1
+      }
+    },
+    "f14": {
+      "side": {
+        "image": "aircraft/f14.side.png",
+        "nose": [
+          66,
+          13
+        ],
+        "exhausts": [
+          [
+            0,
+            12
+          ]
+        ],
+        "scale": 1
+      },
+      "top": {
+        "image": "aircraft/f14.top.png",
+        "nose": [
+          25,
+          0
+        ],
+        "exhausts": [
+          [
+            20,
+            30
+          ],
+          [
+            30,
+            30
+          ]
+        ],
+        "scale": 1
+      }
+    },
+    "f15": {
+      "side": {
+        "image": "aircraft/f15.side.png",
+        "nose": [
+          66,
+          13
+        ],
+        "exhausts": [
+          [
+            0,
+            12
+          ]
+        ],
+        "scale": 1
+      },
+      "top": {
+        "image": "aircraft/f15.top.png",
+        "nose": [
+          25,
+          0
+        ],
+        "exhausts": [
+          [
+            20,
+            30
+          ],
+          [
+            30,
+            30
+          ]
+        ],
+        "scale": 1
+      }
+    },
+    "enemy-biplane": {
+      "side": {
+        "image": "aircraft/enemy-biplane.side.png",
+        "nose": [
+          52,
+          13
+        ],
+        "exhausts": [],
+        "scale": 1
+      },
+      "top": {
+        "image": "aircraft/enemy-biplane.top.png",
+        "nose": [
+          23,
+          0
+        ],
+        "exhausts": [],
+        "scale": 1
+      }
+    },
+    "enemy-prop": {
+      "side": {
+        "image": "aircraft/enemy-prop.side.png",
+        "nose": [
+          56,
+          11
+        ],
+        "exhausts": [],
+        "scale": 1
+      },
+      "top": {
+        "image": "aircraft/enemy-prop.top.png",
+        "nose": [
+          23,
+          0
+        ],
+        "exhausts": [],
+        "scale": 1
+      }
+    },
+    "enemy-earlyjet": {
+      "side": {
+        "image": "aircraft/enemy-earlyjet.side.png",
+        "nose": [
+          60,
+          9
+        ],
+        "exhausts": [
+          [
+            18,
+            15
+          ]
+        ],
+        "scale": 1
+      },
+      "top": {
+        "image": "aircraft/enemy-earlyjet.top.png",
+        "nose": [
+          25,
+          0
+        ],
+        "exhausts": [
+          [
+            13,
+            20
+          ],
+          [
+            37,
+            20
+          ]
+        ],
+        "scale": 1
+      }
+    },
+    "enemy-delta": {
+      "side": {
+        "image": "aircraft/enemy-delta.side.png",
+        "nose": [
+          66,
+          11
+        ],
+        "exhausts": [
+          [
+            0,
+            11
+          ]
+        ],
+        "scale": 1
+      },
+      "top": {
+        "image": "aircraft/enemy-delta.top.png",
+        "nose": [
+          23,
+          0
+        ],
+        "exhausts": [
+          [
+            23,
+            30
+          ]
+        ],
+        "scale": 1
+      }
+    },
+    "enemy-twinjet": {
+      "side": {
+        "image": "aircraft/enemy-twinjet.side.png",
+        "nose": [
+          66,
+          13
+        ],
+        "exhausts": [
+          [
+            0,
+            12
+          ]
+        ],
+        "scale": 1
+      },
+      "top": {
+        "image": "aircraft/enemy-twinjet.top.png",
+        "nose": [
+          25,
+          0
+        ],
+        "exhausts": [
+          [
+            20,
+            30
+          ],
+          [
+            30,
+            30
+          ]
+        ],
+        "scale": 1
+      }
+    }
+  },
+  "structures": {
+    "flak.barrel.side": {
+      "image": "structures/flak.barrel.side.png",
+      "anchor": [
+        0,
+        2
+      ],
+      "mount": [
+        0,
+        -12
+      ],
+      "scale": 1
+    },
+    "flak.barrel.top": {
+      "image": "structures/flak.barrel.top.png",
+      "anchor": [
+        0,
+        2
+      ],
+      "mount": [
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    "tower.top": {
+      "image": "structures/tower.top.png",
+      "anchor": [
+        14,
+        14
+      ],
+      "lights": [
+        [
+          14,
+          14
+        ]
+      ],
+      "scale": 1
+    },
+    "airfield-hangar.side": {
+      "image": "structures/airfield-hangar.side.png",
+      "anchor": [
+        40,
+        40
+      ],
+      "scale": 1
+    },
+    "airfield-hangar.top": {
+      "image": "structures/airfield-hangar.top.png",
+      "anchor": [
+        40,
+        30
+      ],
+      "scale": 1
+    },
+    "windsock.side": {
+      "image": "structures/windsock.side.png",
+      "anchor": [
+        0,
+        40
+      ],
+      "scale": 1
+    },
+    "windsock.sock.side": {
+      "image": "structures/windsock.sock.side.png",
+      "anchor": [
+        0,
+        3
+      ],
+      "mount": [
+        2,
+        -38
+      ],
+      "scale": 1
+    },
+    "windsock.top": {
+      "image": "structures/windsock.top.png",
+      "anchor": [
+        2,
+        2
+      ],
+      "scale": 1
+    },
+    "windsock.sock.top": {
+      "image": "structures/windsock.sock.top.png",
+      "anchor": [
+        -2,
+        2
+      ],
+      "mount": [
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    "factory.side": {
+      "image": "structures/factory.side.png",
+      "anchor": [
+        40,
+        68
+      ],
+      "scale": 1
+    },
+    "factory.top": {
+      "image": "structures/factory.top.png",
+      "anchor": [
+        40,
+        24
+      ],
+      "scale": 1
+    },
+    "factory.wreck.side": {
+      "image": "structures/factory.wreck.side.png",
+      "anchor": [
+        40,
+        18
+      ],
+      "scale": 1
+    },
+    "factory.wreck.top": {
+      "image": "structures/factory.wreck.top.png",
+      "anchor": [
+        56,
+        56
+      ],
+      "scale": 1
+    },
+    "fuel.side": {
+      "image": "structures/fuel.side.png",
+      "anchor": [
+        20,
+        36
+      ],
+      "scale": 1
+    },
+    "fuel.top": {
+      "image": "structures/fuel.top.png",
+      "anchor": [
+        20,
+        20
+      ],
+      "scale": 1
+    },
+    "fuel.wreck.side": {
+      "image": "structures/fuel.wreck.side.png",
+      "anchor": [
+        20,
+        18
+      ],
+      "scale": 1
+    },
+    "fuel.wreck.top": {
+      "image": "structures/fuel.wreck.top.png",
+      "anchor": [
+        28,
+        28
+      ],
+      "scale": 1
+    },
+    "flak.side": {
+      "image": "structures/flak.side.png",
+      "anchor": [
+        15,
+        16
+      ],
+      "scale": 1
+    },
+    "flak.top": {
+      "image": "structures/flak.top.png",
+      "anchor": [
+        15,
+        15
+      ],
+      "scale": 1
+    },
+    "flak.wreck.side": {
+      "image": "structures/flak.wreck.side.png",
+      "anchor": [
+        14,
+        18
+      ],
+      "scale": 1
+    },
+    "flak.wreck.top": {
+      "image": "structures/flak.wreck.top.png",
+      "anchor": [
+        20,
+        20
+      ],
+      "scale": 1
+    },
+    "hangar.side": {
+      "image": "structures/hangar.side.png",
+      "anchor": [
+        36,
+        36
+      ],
+      "scale": 1
+    },
+    "hangar.top": {
+      "image": "structures/hangar.top.png",
+      "anchor": [
+        36,
+        26
+      ],
+      "scale": 1
+    },
+    "hangar.wreck.side": {
+      "image": "structures/hangar.wreck.side.png",
+      "anchor": [
+        36,
+        18
+      ],
+      "scale": 1
+    },
+    "hangar.wreck.top": {
+      "image": "structures/hangar.wreck.top.png",
+      "anchor": [
+        50,
+        50
+      ],
+      "scale": 1
+    },
+    "tree.pine.0.side": {
+      "image": "structures/tree.pine.0.side.png",
+      "anchor": [
+        5,
+        17
+      ],
+      "scale": 1
+    },
+    "tree.pine.1.side": {
+      "image": "structures/tree.pine.1.side.png",
+      "anchor": [
+        6,
+        22
+      ],
+      "scale": 1
+    },
+    "tree.round.0.side": {
+      "image": "structures/tree.round.0.side.png",
+      "anchor": [
+        6,
+        14
+      ],
+      "scale": 1
+    },
+    "tree.round.1.side": {
+      "image": "structures/tree.round.1.side.png",
+      "anchor": [
+        7,
+        17
+      ],
+      "scale": 1
+    },
+    "tree.bush.0.side": {
+      "image": "structures/tree.bush.0.side.png",
+      "anchor": [
+        5,
+        5
+      ],
+      "scale": 1
+    },
+    "tree.bush.1.side": {
+      "image": "structures/tree.bush.1.side.png",
+      "anchor": [
+        6,
+        7
+      ],
+      "scale": 1
+    },
+    "tower.side": {
+      "image": "structures/tower.side.png",
+      "anchor": [
+        18,
+        76
+      ],
+      "lights": [
+        [
+          18,
+          1
+        ]
+      ],
+      "scale": 1
+    },
+    "carrier.side": {
+      "image": "structures/carrier.side.png",
+      "anchor": [
+        112,
+        60
+      ],
+      "lights": [
+        [
+          141,
+          -1
+        ]
+      ],
+      "scale": 1
+    },
+    "carrier.top": {
+      "image": "structures/carrier.top.png",
+      "anchor": [
+        20,
+        110
+      ],
+      "scale": 1
+    }
+  }
+}
