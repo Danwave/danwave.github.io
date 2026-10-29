@@ -877,12 +877,12 @@
     "carrier.side": {
       "image": "structures/carrier.side.png",
       "anchor": [
-        112,
+        167,
         60
       ],
       "lights": [
         [
-          141,
+          196,
           -1
         ]
       ],
@@ -892,7 +892,7 @@
       "image": "structures/carrier.top.png",
       "anchor": [
         20,
-        110
+        165
       ],
       "scale": 1
     }
