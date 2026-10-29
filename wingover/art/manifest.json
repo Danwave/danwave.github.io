@@ -587,6 +587,126 @@
         ],
         "scale": 1
       }
+    },
+    "uh1": {
+      "side": {
+        "image": "aircraft/uh1.side.png",
+        "nose": [
+          76,
+          16
+        ],
+        "exhausts": [],
+        "scale": 1
+      },
+      "top": {
+        "image": "aircraft/uh1.top.png",
+        "nose": [
+          11,
+          0
+        ],
+        "exhausts": [],
+        "scale": 1
+      }
+    },
+    "uh60": {
+      "side": {
+        "image": "aircraft/uh60.side.png",
+        "nose": [
+          90,
+          14
+        ],
+        "exhausts": [],
+        "scale": 1
+      },
+      "top": {
+        "image": "aircraft/uh60.top.png",
+        "nose": [
+          13,
+          0
+        ],
+        "exhausts": [],
+        "scale": 1
+      }
+    },
+    "mi24": {
+      "side": {
+        "image": "aircraft/mi24.side.png",
+        "nose": [
+          96,
+          20
+        ],
+        "exhausts": [],
+        "scale": 1
+      },
+      "top": {
+        "image": "aircraft/mi24.top.png",
+        "nose": [
+          17,
+          0
+        ],
+        "exhausts": [],
+        "scale": 1
+      }
+    },
+    "enemy-huey": {
+      "side": {
+        "image": "aircraft/enemy-huey.side.png",
+        "nose": [
+          76,
+          16
+        ],
+        "exhausts": [],
+        "scale": 1
+      },
+      "top": {
+        "image": "aircraft/enemy-huey.top.png",
+        "nose": [
+          11,
+          0
+        ],
+        "exhausts": [],
+        "scale": 1
+      }
+    },
+    "enemy-blackhawk": {
+      "side": {
+        "image": "aircraft/enemy-blackhawk.side.png",
+        "nose": [
+          90,
+          14
+        ],
+        "exhausts": [],
+        "scale": 1
+      },
+      "top": {
+        "image": "aircraft/enemy-blackhawk.top.png",
+        "nose": [
+          13,
+          0
+        ],
+        "exhausts": [],
+        "scale": 1
+      }
+    },
+    "enemy-hind": {
+      "side": {
+        "image": "aircraft/enemy-hind.side.png",
+        "nose": [
+          96,
+          20
+        ],
+        "exhausts": [],
+        "scale": 1
+      },
+      "top": {
+        "image": "aircraft/enemy-hind.top.png",
+        "nose": [
+          17,
+          0
+        ],
+        "exhausts": [],
+        "scale": 1
+      }
     }
   },
   "structures": {
