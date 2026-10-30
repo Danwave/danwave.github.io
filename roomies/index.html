@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Roomies</title>
+    <script type="module" crossorigin src="./assets/index-DMnSvQ6l.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-DBk5ORsu.css">
+  </head>
+  <body>
+    <div id="stage"><canvas id="game" width="640" height="400"></canvas></div>
+
+    <header id="topbar" class="panel">
+      <div class="who"><b id="name">Alex</b><span id="status">Sin hacer nada</span></div>
+      <div class="clock">
+        <span id="day">Día 1</span><b id="time">08:00</b>
+        <span class="speeds">
+          <button data-speed="0" title="Pausa (espacio)">II</button>
+          <button data-speed="1" title="Normal (1)">&gt;</button>
+          <button data-speed="3" title="Rápido (2)">&gt;&gt;</button>
+          <button data-speed="10" title="Muy rápido (3)">&gt;&gt;&gt;</button>
+        </span>
+      </div>
+      <div class="coins"><i class="coin"></i><b id="money">400</b></div>
+    </header>
+
+    <section id="needs" class="panel"></section>
+
+    <nav id="modes" class="panel">
+      <button data-mode="live" class="on">Vivir</button>
+      <button data-mode="build">Construir</button>
+      <button id="look-btn">Aspecto</button>
+      <label class="toggle"><input type="checkbox" id="autonomy" checked /> Libre albedrío</label>
+    </nav>
+
+    <aside id="catalog" class="panel hidden">
+      <h2>Catálogo</h2>
+      <div id="catalog-grid"></div>
+      <div class="tools">
+        <button id="rotate" title="R">Girar</button>
+        <button id="sell" title="Supr">Vender</button>
+        <button id="cancel" title="Esc">Soltar</button>
+      </div>
+      <h3>Suelo</h3>
+      <div class="swatches" id="floor-swatches"></div>
+      <h3>Paredes</h3>
+      <div class="swatches" id="wall-swatches"></div>
+      <p class="hint">Elige un mueble y haz clic en la habitación. Haz clic en un mueble colocado para moverlo.</p>
+    </aside>
+
+    <div id="menu" class="panel hidden"></div>
+
+    <div id="look" class="panel modal hidden">
+      <h2>Tu personaje</h2>
+      <div class="look-body">
+        <canvas id="look-preview" width="40" height="52"></canvas>
+        <div id="look-rows"></div>
+      </div>
+      <label class="name">Nombre <input id="look-name" maxlength="16" /></label>
+      <div class="tools">
+        <button id="look-random">Aleatorio</button>
+        <button id="look-new" title="Empieza de cero: habitación, monedas y necesidades">Nueva partida</button>
+        <button id="look-done" class="primary">Listo</button>
+      </div>
+    </div>
+
+    <div id="toast" class="hidden"></div>
+    <p id="help">Clic en el suelo para caminar · clic en un mueble para usarlo</p>
+
+  </body>
+</html>
